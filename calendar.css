@@ -1,0 +1,68 @@
+html, body
+{
+    overflow: hidden;
+    font-family: "Love Ya Like A Sister", sans-serif;
+}
+html
+{
+    margin:20px 70px;
+}
+body
+{   
+    margin: 0;
+    padding: 17px 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-image: url(/Asset/pngtree-nature-high-resolution-desktop-wallpaper-hd-image_16414250.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+input
+{
+    width: 50%;
+    height:3vh;
+    text-align: center;
+}
+.select-month
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+button
+{
+    margin:16px 0;
+    height: 30px;
+    width: 50px;
+    background: none;
+    border: none;
+}
+.material-symbols-outlined:hover
+{
+    color: blue;
+}
+.material-symbols-outlined:active
+{
+    color: darkblue;
+}
+table
+{
+    margin:0 auto;
+    width: 80%;
+}
+td
+{
+    padding: 20px;
+    border: 1px solid black;
+}
+td:hover
+{
+    background-color: peru;
+}
+.today
+{
+    background-color: peachpuff;
+}
